@@ -6,10 +6,10 @@ Numpy and Tensorflow
 
 ## Documentation ( Quick Model )
 ### Create Model:
-  model = FAT_WiSARD(INPUT_SIZE,OUTPUT_SIZE/NUMBER_OF_CLASSES)
+  model = FAT_WiSARD(input_size, output_size)
 ### Add Layer:
-  model.add(NUMBER_OF_NEURONS)
+  model.add(number_of_neurons)
 ### Train:
-  model.train(INPUTS,OUTPUTS) OUTPUTS NEEDS DO BE ONE HOT ENCODED
+  model.train(input_batch, output_batch) Output -> One Hot Encoded
 ### Opimize:
-  model.optimize(LEARNING_RATE,NUMBER_OF_EPOCHS=1)
+  model.optimize(learning_rate, number_of_epochs)
