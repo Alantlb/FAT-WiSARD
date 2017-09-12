@@ -1,3 +1,4 @@
 # Heavy-WiSARD
+Um modelo de Redes Neurais sem Peso com Peso.
 
-Tensorflow Backend
+# Documentação ( Quick Model )
