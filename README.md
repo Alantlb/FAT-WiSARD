@@ -13,9 +13,9 @@ model = FATWiSARD ( number_of_inputs, number_of_classes, number_of_rams, radius_
 model.train ( inputs, classes )
 ### Opimize:
 model.optimize ( inputs, classes, learning_rate, number_of_epochs = 1 ) <br/>
-Opitional Kwargs: 
-optimizer = "Adam" -> Uses Adam optimizer instead of Gradient Descent.
-log = n -> Prints on the screen "Epoch: x" at a step of n.
+Opitional Kwargs: <br/>
+optimizer = "Adam" -> Uses Adam optimizer instead of Gradient Descent. <br/>
+log = n -> Prints on the screen "Epoch: x" at a step of n. <br/>
 OBS: classes can be one hot encoded or not. 
 ### Predict:
 model.predict ( input )
