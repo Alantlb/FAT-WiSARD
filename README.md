@@ -6,7 +6,7 @@ Python 3.X
 Numpy and Tensorflow
 
 ## Docs:
-## Import:
+### Import:
 from FATWiSARD import *
 ### Create new Model:
 model = FATWiSARD ( number_of_inputs, number_of_classes, number_of_rams, radius_initial_value = 1 )
