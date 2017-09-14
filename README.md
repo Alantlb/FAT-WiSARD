@@ -15,7 +15,7 @@ model.train ( inputs, classes )
 model.optimize ( inputs, classes, learning_rate, number_of_epochs = 1 ) <br/> <br/>
 Opitional Kwargs: <br/>
 optimizer = "Adam" -> Uses Adam optimizer instead of Gradient Descent. <br/>
-log = n -> Prints on the screen "Epoch: x" at a step of n. <br/>
+log = n -> Prints on the screen "Epoch: x" at a step of n. <br/> <br/>
 OBS: classes can be one hot encoded or not. 
 ### Predict:
 model.predict ( input )
